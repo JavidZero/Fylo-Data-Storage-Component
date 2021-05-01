@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .front-end {
+      width: 100vw;
+      height: 30px;
+      background-color: black;
+      position: absolute;
+      bottom: 0%;
+      right: 0%;
+    }
+  
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .attribution a,
+    .attribution span {
+      color: hsl(227, 45%, 77%);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="flex">
+      <div class="intro">
+        <img src="images/logo.svg" alt="Logo">
+        <ul>
+          <li><img src="images/icon-document.svg" alt="Document Pic"></li>
+          <li><img src="images/icon-folder.svg" alt="Folder Pic"></li>
+          <li><img src="images/icon-upload.svg" alt="Upload Pic"></li>
+        </ul>
+      </div>
+      <div class="info">
+        <p>You’ve used <span>815 GB</span> of your storage</p>
+        <div class="liner">
+          <div class="gradient">
+            <span class="gradient-btn"></span>
+          </div>
+          <div class="quote">
+            <h1>185 <span>GB Left</span></h1>
+          </div>
+        </div>
+        <p class="min">0 GB</p>
+        <p class="max">1000 GB</p>
+       
+      </div>
+    </div>
+  </div>
+  
+  <footer class="front-end">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <span>Javid Alizada</span>.
+    </p>
+  </footer>
+</body>
+</html>
